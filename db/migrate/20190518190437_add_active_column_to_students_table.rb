@@ -1,5 +1,5 @@
 class AddActiveColumnToStudentsTable < ActiveRecord::Migration[5.0]
   def change
-    add_column :students_tables, :active, :boolean
+    add_column :students, :active, :boolean
   end
 end
